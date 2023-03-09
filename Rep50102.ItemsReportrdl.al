@@ -1,11 +1,11 @@
-report 50102 "Items Report rdl"
+report 50106 "Items Report rdl"
 {
     ApplicationArea = All;
     Caption = 'Items Report rdl';
     UsageCategory = ReportsAndAnalysis;
     RDLCLayout = 'Items Report.RDL';
     DefaultLayout = RDLC;
-    
+
     dataset
     {
         dataitem(Item; Item)

@@ -1,8 +1,8 @@
-page 50101 "Radio Show Card"
+page 50107 "Radio Show Card"
 {
     Caption = 'Radio Show Card';
     PageType = Card;
-    SourceTable = RadioShow;
+    SourceTable = SkizaRadioShows;
 
     layout
     {

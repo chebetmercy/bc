@@ -1,4 +1,4 @@
-report 50101 "Vendor summary report"
+report 50107 "Vendor summary report"
 {
     ApplicationArea = All;
     Caption = 'Vendor summary report';

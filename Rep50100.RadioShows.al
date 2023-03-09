@@ -1,4 +1,4 @@
-report 50100 "Radio Shows"
+report 50103 "Radio Shows"
 {
     ApplicationArea = All;
     Caption = 'Radio Shows';
@@ -10,21 +10,21 @@ report 50100 "Radio Shows"
 
     dataset
     {
-        dataitem(RadioShows; RadioShow)
+        dataitem(RadioShows; SkizaRadioShows)
         {
             column(No_; "No.") { }
             column(Name; Name) { }
 
             column(RadioshowType_RadioShows; "Radio show Type")
-            {}
+            { }
             column(Runtime_RadioShows; "Run time")
             {
             }
-            
+
             column(HostName_RadioShows; "Host Name")
             {
             }
-            
+
             column(RoyaltyCost_RadioShows; "Royalty Cost")
             {
             }
