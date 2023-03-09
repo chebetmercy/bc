@@ -1,11 +1,11 @@
-page 50100 "Radio MD "
+page 50105 "Radio MD "
 {
     Caption = 'Radio MD Role Center';
     PageType = RoleCenter;
 
-
     layout
     {
+        
         area(RoleCenter)
         {
             group(group1)
@@ -24,6 +24,30 @@ page 50100 "Radio MD "
                     ApplicationArea = All;
                 }
 
+            }
+        }
+        
+    }
+    actions
+    {
+        area(Sections)
+        {
+            group(General)
+            {
+                Caption = 'General';
+                action("Skiza Radio MD")
+                {
+                   RunObject = Page "Receivables-Payables";
+                }
+                action("Permission Sets")
+                {
+                   RunObject = Page "Permission Sets";
+                }
+                
+                action("Users")
+                {
+                    RunObject = Page "Users";
+                }
             }
         }
     }

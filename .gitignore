@@ -1,0 +1,7 @@
+.vscode/
+.snapshots/
+.vscode-test/
+.alpackages/
+
+Default publisher_BCGroup_1.0.0.0.app
+app.json
