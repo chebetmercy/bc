@@ -22,6 +22,8 @@ table 50104 SkizaRadioShows
         Field(120; "Advertising revenue"; Decimal) { }
         field(130; "Royalty Cost"; Decimal) { }
 
+        field(140; "Active"; Boolean) { }
+
     }
 
     // keys
