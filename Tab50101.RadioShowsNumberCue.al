@@ -52,5 +52,6 @@ table 50101 "Radio Shows Number Cue"
         //     MonthlyLogTime += UserTmeRegister.Minutes;
         // until UserTmeRegister.Next() = 0;
     end;
+    
 
 }
